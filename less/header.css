@@ -1,0 +1,27 @@
+header {
+  width: 100vw;
+  height: 8.37053571vw;
+  z-index: 2;
+  position: fixed;
+  line-height: 8.37053571vw;
+  perspective: 100px;
+}
+header .logo {
+  float: left;
+  font-weight: 700;
+  font-size: 1.00446429vw;
+}
+header .location {
+  float: left;
+  padding: 0px 50px;
+  opacity: 0.5;
+}
+header .links {
+  float: right;
+}
+header .links a {
+  padding: 0px 50px;
+}
+header .links a:nth-child(3) {
+  padding: 0px 0px 0px 50px;
+}

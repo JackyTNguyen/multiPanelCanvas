@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+html,
+body {
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.89285714vw;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-color: #181818;
+}
+html .pageScroll,
+body .pageScroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100vw;
+}
+.contentWrapper {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0 8.37053571vw;
+}
+header {
+  width: 100vw;
+  height: 8.37053571vw;
+  z-index: 2;
+  position: fixed;
+  font-size: 1.00446429vw;
+  line-height: 8.37053571vw;
+  perspective: 100px;
+}
+header .logo {
+  float: left;
+  font-size: 1.00446429vw;
+  font-weight: 700;
+}
+header .location {
+  float: left;
+  padding: 0px 50px;
+  opacity: 0.5;
+}
+header .links {
+  float: right;
+}
+header .links a {
+  padding: 0px 2.79017857vw;
+}
+header .links a:nth-child(2) {
+  padding: 0px 0px 0px 2.79017857vw;
+}
+.pageContainer {
+  position: relative;
+  z-index: 1;
+  padding-top: 8.37053571vw;
+  overflow: hidden;
+  width: 100vw;
+}
+.pageContainer .introBlock {
+  width: 100%;
+  perspective: 100px;
+  margin: 0px auto;
+}
+.pageContainer .introBlock .introHeader {
+  text-align: center;
+}
+.pageContainer .introBlock .introHeader .mediumTitle {
+  font-size: 16px;
+}
+@media (max-width: 1200px) {
+  header {
+    height: 80px;
+    font-size: 12px;
+    line-height: 80px;
+  }
+  header .logo {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 1200px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1200px) {
+  .contentWrapper {
+    padding: 0px 20px;
+  }
+}
